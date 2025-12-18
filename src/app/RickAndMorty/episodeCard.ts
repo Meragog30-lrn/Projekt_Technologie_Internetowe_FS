@@ -1,11 +1,11 @@
 import { Component, signal } from '@angular/core';
 
-export type Location = {
+export type Episode = {
   id: number;
   name: string;
-  type: string;
-  dimension: string;
-  residents: string[];
+  air_date: string;
+  episode: string; //code of the episode
+  characters: string[];
   url: string;
   created: string;
 };
