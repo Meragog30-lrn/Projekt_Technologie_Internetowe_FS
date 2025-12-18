@@ -11,8 +11,8 @@ export type Episode = {
 };
 
 @Component({
-  selector: 'app-locationCard',
+  selector: 'app-episodeCard',
   template: ` <h1>Welcome!</h1> `,
   styles: [],
 })
-export class LocationCard {}
+export class EpisodeCard {}
